@@ -14,5 +14,5 @@ btn.addEventListener('click', () => {
 	// Receive messages
 	ws.onmessage = (event) => {
 		console.log('Server says:', event.data);
-};
+	};
 });
